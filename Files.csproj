@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
+    <Content Include="About\PublishedFileId.txt" />
     <Content Include="README.md" />
   </ItemGroup>
   <Target Name="Clean" />
