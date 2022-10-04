@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Something Custom This Way Comes</name>
+	<author>Taggerung</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>Taggerung.SomethingCustomThisWayComes</packageId>
+	<description>A library mod which adds a configurable something wanders in incident</description>
+	<url>https://steamcommunity.com/id/Taggerung/myworkshopfiles/?appid=294100</url>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+  </loadAfter>
+</ModMetaData>
