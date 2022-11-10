@@ -35,6 +35,8 @@ That, if you want to be visited by Muffalo, looks something like this:
 </Defs>
 ```
 
+To help with testing the debug version of this mod you will get by cloning this repo includes an example incidentDef in the 1.x/Example folder.
+
 You can have as many incidents as you like as long as they all have a unique `defName`
 
 ## Thanks

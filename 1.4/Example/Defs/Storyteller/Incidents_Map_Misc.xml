@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <IncidentDef>
+    <!-- Remember to always prefix your defs! -->
+    <defName>Taggerung_TestIncident1</defName>
+    <label>Test Incident 1</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>13</minRefireDays>
+    <disallowedBiomes>
+      <li>SeaIce</li>
+    </disallowedBiomes>
+
+    <!-- Select the defName of the type of entity you want to come to visit -->
+    <pawnKind>Muffalo</pawnKind>
+    <!-- Make sure to select the special incident worker-->
+    <workerClass>SomethingCustomThisWayComes.IncidentWorker_SomethingPasses</workerClass>
+  </IncidentDef>
+</Defs>
