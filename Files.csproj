@@ -21,12 +21,12 @@
     <Folder Include="Common/Languages" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="README.md" />
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
   </ItemGroup>
   <Target Name="Clean">
     <RemoveDir Directories="$(OutputPath)" />
+    <Delete Files="Taggerung_SomethingCustomThisWayComes.zip" />
   </Target>
   <Target Condition=" '$(Configuration)' == 'Release' " Name="Build">
     <Copy SourceFiles="About/About-Release.xml" DestinationFiles="$(OutputPath)About/About.xml" SkipUnchangedFiles="true" />
@@ -36,5 +36,7 @@
   <Target Name="Rebuild" />
   <Target Name="PostBuild" AfterTargets="Build">
     <RemoveDir Directories="obj" />
+    <Delete Condition=" '$(Configuration)' == 'Release' " Files="Taggerung_SomethingCustomThisWayComes.zip" />
+    <ZipDirectory Condition=" '$(Configuration)' == 'Release' " DestinationFile="Taggerung_SomethingCustomThisWayComes.zip" SourceDirectory="$(OutputPath)" />
   </Target>
 </Project>
