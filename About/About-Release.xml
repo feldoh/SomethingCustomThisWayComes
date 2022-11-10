@@ -3,7 +3,7 @@
 	<name>Something Custom This Way Comes</name>
 	<author>Taggerung</author>
 	<supportedVersions>
-		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<packageId>Taggerung.SomethingCustomThisWayComes</packageId>
 	<description>A library mod which adds a configurable something wanders in incident</description>
@@ -12,5 +12,6 @@
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Biotech</li>
   </loadAfter>
 </ModMetaData>
