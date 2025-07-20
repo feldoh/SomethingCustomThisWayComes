@@ -42,3 +42,6 @@ You can have as many incidents as you like as long as they all have a unique `de
 ## Thanks
 * Ludeon for such a great game with excellent mod support.
 * Marnador for the RimWorld font
+
+## Continuity
+See [CONTINUITY.md](CONTINUITY.md) for details on continuity and succession of this project in the event of my death or long-term absence.

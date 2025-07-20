@@ -11,13 +11,13 @@
 	<OutputPath>../Taggerung_SomethingCustomThisWayComes/</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ReleaseFiles Include="About/**;Common/**;1.*/**;LICENSE;README.md" Exclude="About/About-Release.xml;About/About.xml;1.*/Source/**;1.*/Assemblies/**;1.*/Example/**;loadFolders-Release.xml" />
-    <AboutFiles Include="About/About-Release.xml;About/About.xml" />
-    <LoadFolders Include="loadFolders-Release.xml;loadFolders.xml" />
+    <ReleaseFiles Include="About/**;Common/**;1.*/**;LICENSE;README.md;CONTINUITY.md" Exclude="About/About-Release.xml;About/About.xml;1.*/Source/**;1.*/Assemblies/**;1.*/Example/**;loadFolders-Release.xml" />
+    <AboutFiles Include="About/About.xml" />
+    <LoadFolders Include="loadFolders.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1.*/Assemblies" />
-    <Folder Include="Assets" />
+    <None Include="Assets/**" />
     <Folder Include="Common/Languages" />
   </ItemGroup>
   <ItemGroup>
