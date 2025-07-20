@@ -62,7 +62,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ReleaseFiles Include="../../../1.*/**" Exclude="../../../1.*/Source/**;**/*.pdb" />
-    <AboutFiles Include="../../../About/**" Exclude="../../../About/*.png~" />
+    <AboutFiles Include="../../../About/**" Exclude="../../../About/*.png~;../../../About/About-Release.xml" />
     <CommonFiles Include="../../../Common/**" />
     <ExtraFiles Include="../../../LoadFolders.xml;../../../LICENSE;../../../README.md;../../../CONTINUITY.md" />
     <None Include="../../../Assets/**" LinkBase="Assets" />
